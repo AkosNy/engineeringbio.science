@@ -1,0 +1,21 @@
+# Google Scholar stats for Akos Nyerges
+# https://scholar.google.com/citations?user=Dn8nr-UAAAAJ
+#
+# These values feed templates that display aggregate citation stats
+# (used in publications.md header and elsewhere).
+#
+# UPDATE OPTIONS
+# --------------
+# 1. Manual: visit your Scholar profile and update the three numbers below
+#    every few months. Commit + push.
+# 2. Automatic: enable the optional Jekyll plugin at
+#    _plugins/scholar_stats.rb (commented out by default). When that plugin
+#    is active, these values are overwritten by live scrapes during build.
+#    See README in /docs/scholar-stats.md for caveats.
+
+id: Dn8nr-UAAAAJ
+publications: 36
+citations: 2748
+h_index: 26
+i10_index: 30
+last_updated: 2026-05-01

@@ -77,6 +77,20 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+<!-- Open Graph -->
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 200 }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ '/assets/img/omics_genome_design.png' | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 200 }}">
+<meta name="twitter:image" content="{{ '/assets/img/omics_genome_design.png' | absolute_url }}">
+
 {% if site.enable_darkmode %}
   <!-- Dark Mode -->
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>

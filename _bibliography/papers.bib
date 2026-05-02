@@ -1,115 +1,240 @@
----
----
+% ---------------------------------------------------------------------------
+%  Nyerges Lab publications &mdash; jekyll-scholar&middot;al-folio compatible
+%  UTF-8 BibTeX. Author names preserved as shown on the lab site
+%  (initials where only initials are published).
+%  Fields used by al-folio:
+%    abbr           short label shown as pill next to the entry
+%    selected       mark paper for the "selected_papers" list on homepage
+%    bibtex_show    render a BibTeX button below the entry
+%    html&middot;url     links out
+%    doi&middot;pmid     fetched for Altmetric&middot;Dimensions badges
+%    preview        optional image in assets/img/publication_preview/
+% ---------------------------------------------------------------------------
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{nyerges2024synthetic,
+  abbr       = {bioRxiv},
+  title      = {Synthetic genomes unveil the effects of synonymous recoding},
+  author     = {Nyerges, Akos and Chiappino-Pepe, A. and Budnik, B.
+                and Baas-Thomas, M. and Flynn, R. and Yan, S. and Ostrov, N.
+                and Liu, M. and Wang, M. and Zheng, Q. and Hu, F. and Chen, K.
+                and Rudolph, A. and Chen, D. and Ahn, J. and Spencer, O.
+                and Ayalavarapu, V. and Tarver, A. and Harmon-Smith, M.
+                and Hamilton, M. and Blaby, I. and Yoshikuni, Y.
+                and Hajian, B. and Jin, A. and Kintses, B. and Szamel, M.
+                and Seregi, V. and Shen, Y. and Li, Z. and Church, G. M.},
+  journal    = {bioRxiv},
+  year       = {2024},
+  doi        = {10.1101/2024.06.16.599206},
+  url        = {https://www.biorxiv.org/content/10.1101/2024.06.16.599206},
+  html       = {https://www.biorxiv.org/content/10.1101/2024.06.16.599206},
+  abstract   = {Multi-omics-guided genome synthesis and evolution reveals the
+                fitness effects of synonymous recoding across multiple
+                partially recoded Escherichia coli genomes, uncovering and
+                mitigating widespread translational defects in compressed
+                genetic codes.},
+  selected   = {true},
+  bibtex_show= {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+
+@article{nyerges2023swapped,
+  abbr       = {Nature},
+  title      = {A swapped genetic code prevents viral infections and gene
+                transfer},
+  author     = {Nyerges, Akos and Vinke, S. and Flynn, R. and Owen, S. V.
+                and Rand, E. A. and Budnik, B. and Keen, E. and Narasimhan, K.
+                and Marchand, J. A. and Baas-Thomas, M. and Liu, M.
+                and Chen, K. and Chiappino-Pepe, A. and Hu, F. and Baym, M.
+                and Church, G. M.},
+  journal    = {Nature},
+  year       = {2023},
+  pages      = {1--8},
+  doi        = {10.1038/s41586-023-05824-z},
+  url        = {https://doi.org/10.1038/s41586-023-05824-z},
+  html       = {https://doi.org/10.1038/s41586-023-05824-z},
+  abstract   = {An artificial amino-acid-swapped genetic code (two serine
+                codons reassigned to leucine, a third to the non-natural amino
+                acid L-4,4'-biphenylalanine) renders Escherichia coli
+                resistant to viral infections and prevents the escape of
+                synthetic genetic information, establishing a genetic-code
+                firewall for biocontainment.},
+  note       = {Preprint: bioRxiv, Jul. 8, 2022.},
+  selected   = {true},
+  bibtex_show= {true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+
+@article{nyerges2020rational,
+  abbr       = {PLOS Bio},
+  title      = {Rational design of balanced dual-targeting antibiotics with
+                limited resistance},
+  author     = {Nyerges, Akos and Tomasic, T. and Durcik, M. and Revesz, T.
+                and Szili, P. and Draskovits, G. and Bogar, F.
+                and Skok, {\v Z}. and Zidar, N. and Ila{\v s}, J.
+                and Zega, A. and Kikelj, D. and Daruka, L. and Kintses, B.
+                and Vasarhelyi, B. and Foldesi, I. and Kata, D.
+                and Welin, M. and Kimbung, R. and Focht, D.
+                and Ma{\v s}i{\v c}, L. P. and Pal, C.},
+  journal    = {PLOS Biology},
+  volume     = {18},
+  pages      = {e3000819},
+  year       = {2020},
+  doi        = {10.1371/journal.pbio.3000819},
+  url        = {https://doi.org/10.1371/journal.pbio.3000819},
+  html       = {https://doi.org/10.1371/journal.pbio.3000819},
+  note       = {PDB entries deposited: 6TCK, 6TTG.},
+  selected   = {true},
+  bibtex_show= {true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+
+@article{szili2019rapid,
+  abbr       = {AAC},
+  title      = {Rapid evolution of reduced susceptibility against a balanced
+                dual-targeting antibiotic through stepping-stone mutations},
+  author     = {Szili, P. and Draskovits, G. and R{\'e}v{\'e}sz, T.
+                and Bog{\'a}r, F. and Balogh, D. and Martinek, T.
+                and Daruka, L. and Spohn, R. and V{\'a}s{\'a}rhelyi, B. M.
+                and Czikkely, M. and Kintses, B. and Gr{\'e}zal, G.
+                and Ferenc, G. and P{\'a}l, C. and Nyerges, Akos},
+  journal    = {Antimicrobial Agents and Chemotherapy},
+  volume     = {63},
+  year       = {2019},
+  doi        = {10.1128/aac.00207-19},
+  url        = {https://journals.asm.org/doi/10.1128/aac.00207-19},
+  html       = {https://journals.asm.org/doi/10.1128/aac.00207-19},
+  bibtex_show= {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+
+@article{nyerges2019crispr,
+  abbr       = {SynBio},
+  title      = {CRISPR-interference-based modulation of mobile genetic
+                elements in bacteria},
+  author     = {Nyerges, Akos and B{\'a}lint, B. and Cseklye, J.
+                and Nagy, I. and P{\'a}l, C. and Feh{\'e}r, T.},
+  journal    = {Synthetic Biology},
+  volume     = {4},
+  number     = {1},
+  year       = {2019},
+  doi        = {10.1093/synbio/ysz008},
+  url        = {https://doi.org/10.1093/synbio/ysz008},
+  html       = {https://doi.org/10.1093/synbio/ysz008},
+  bibtex_show= {true}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+
+@article{nyerges2018directed,
+  abbr       = {PNAS},
+  title      = {Directed evolution of multiple genomic loci allows the
+                prediction of antibiotic resistance},
+  author     = {Nyerges, Akos and Cs{\"o}rg{\H o}, B. and Draskovits, G.
+                and Kintses, B. and Szili, P. and Ferenc, G.
+                and R{\'e}v{\'e}sz, T. and Ari, E. and Nagy, I.
+                and B{\'a}lint, B. and V{\'a}s{\'a}rhelyi, B. M.
+                and Bihari, P. and Sz{\'a}mel, M. and Balogh, D.
+                and Papp, H. and Kalapis, D. and Papp, B. and P{\'a}l, C.},
+  journal    = {Proceedings of the National Academy of Sciences},
+  volume     = {115},
+  pages      = {E5726--E5735},
+  year       = {2018},
+  doi        = {10.1073/pnas.1801646115},
+  url        = {https://doi.org/10.1073/pnas.1801646115},
+  html       = {https://doi.org/10.1073/pnas.1801646115},
+  abstract   = {DIvERGE enables targeted, off-target-free mutagenesis of long
+                genomic segments across bacterial species, producing billions
+                of combinatorial variants in native genomic context and
+                predicting clinically relevant antibiotic-resistance
+                trajectories &mdash; including one later confirmed in gepotidacin
+                clinical trials.},
+  selected   = {true},
+  bibtex_show= {true}
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
+
+@article{nyerges2016highly,
+  abbr       = {PNAS},
+  title      = {A highly precise and portable genome engineering method
+                allows comparison of mutational effects across bacterial
+                species},
+  author     = {Nyerges, Akos and Cs{\"o}rg{\H o}, B. and Nagy, I.
+                and B{\'a}lint, B. and Bihari, P. and L{\'a}z{\'a}r, V.
+                and Apjok, G. and Umenhoffer, K. and Bogos, B.
+                and P{\'o}sfai, G. and P{\'a}l, C.},
+  journal    = {Proceedings of the National Academy of Sciences},
+  pages      = {201520040},
+  year       = {2016},
+  doi        = {10.1073/pnas.1520040113},
+  url        = {https://doi.org/10.1073/pnas.1520040113},
+  html       = {https://doi.org/10.1073/pnas.1520040113},
+  abstract   = {pORTMAGE &mdash; a portable, conditional-replication-deficient
+                genome-engineering system extending MAGE across diverse
+                bacterial species and enabling direct cross-species
+                comparison of mutational effects.},
+  selected   = {true},
+  bibtex_show= {true}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+
+@article{nyerges2014conditional,
+  abbr       = {NAR},
+  title      = {Conditional DNA repair mutants enable highly precise genome
+                engineering},
+  author     = {Nyerges, Akos and Cs{\"o}rg{\H o}, B. and Nagy, I.
+                and Latinovics, D. and Szamecz, B. and P{\'o}sfai, G.
+                and P{\'a}l, C.},
+  journal    = {Nucleic Acids Research},
+  volume     = {42},
+  pages      = {e62--e62},
+  year       = {2014},
+  doi        = {10.1093/nar/gku105},
+  url        = {https://doi.org/10.1093/nar/gku105},
+  html       = {https://doi.org/10.1093/nar/gku105},
+  bibtex_show= {true}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+
+% --------------------- Patents ---------------------
+
+@misc{nyerges2022patent_viral,
+  abbr       = {Patent},
+  title      = {Methods and compositions for conferring cellular resistance
+                to viral infection},
+  author     = {Nyerges, A. J. and Church, G. M.},
+  year       = {2022},
+  note       = {PCT/US2023/069468},
+  howpublished = {International Patent Application}
+}
+
+
+@misc{nyerges2021patent_recoded,
+  abbr       = {Patent},
+  title      = {Methods for making and using genomically recoded cells},
+  author     = {Nyerges, A. J. and Church, G. M.},
+  year       = {2021},
+  note       = {PCT/US2021/062177},
+  howpublished = {International Patent Application}
+}
+
+
+@misc{nyerges2018patent_diverge,
+  abbr       = {Patent},
+  title      = {Mutagenizing intracellular nucleic acids},
+  author     = {Nyerges, Akos and P{\'a}l, C. and others},
+  year       = {2020},
+  note       = {US10669537B2 &mdash; Granted},
+  howpublished = {U.S. Patent}
+}
+
+
+@misc{nyerges2019patent_antibiotic,
+  abbr       = {Patent},
+  title      = {New class of DNA gyrase and/or topoisomerase IV inhibitors
+                with activity against Gram-positive and Gram-negative
+                bacteria},
+  author     = {Peterlin Ma{\v s}i{\v c}, L. and Nyerges, Akos and others},
+  year       = {2019},
+  note       = {PCT/EP2019/073412 &mdash; Granted},
+  howpublished = {International Patent Application}
 }

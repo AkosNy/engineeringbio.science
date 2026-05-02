@@ -1,0 +1,67 @@
+# frozen_string_literal: true
+#
+# Optional Jekyll plugin: live Google Scholar stats
+# =================================================
+#
+# Scrapes the Scholar profile and overrides site.data['scholar'] with live
+# citation count, h-index, and i10-index values during build.
+#
+# DEFAULT STATE: DISABLED.
+# To enable:
+#   mv _plugins/scholar_stats.rb.disabled _plugins/scholar_stats.rb
+#
+# CAVEATS:
+#   - Google Scholar aggressively rate-limits scrapers. Builds from cloud IPs
+#     (GitHub Actions) frequently get 429-blocked. The plugin silently falls
+#     back to the static values in _data/scholar.yml if Scholar refuses.
+#   - On local Docker builds the scrape almost always succeeds.
+#   - Scholar's HTML structure changes occasionally; if the table parser
+#     breaks, the plugin falls back gracefully and the build still succeeds.
+#
+# Adapted from Jonathan Chang's scholar_stats.rb plugin
+# (https://jonathanchang.org/blog/easily-showcase-your-google-scholar-metrics-in-jekyll/).
+
+require "open-uri"
+require "nokogiri"
+
+module Jekyll
+  class ScholarStatsGenerator < Generator
+    safe true
+    priority :high
+
+    SCHOLAR_URL = "https://scholar.google.com/citations?hl=en&user=".freeze
+
+    def generate(site)
+      scholar_id = site.data.dig("scholar", "id") || site.config["scholar_userid"]
+      return unless scholar_id
+
+      Jekyll.logger.info "Scholar:", "fetching live stats for #{scholar_id}"
+
+      begin
+        url = "#{SCHOLAR_URL}#{scholar_id}"
+        html = URI.open(url, read_timeout: 8, "User-Agent" => "Mozilla/5.0 jekyll-scholar-stats").read
+        doc = Nokogiri::HTML(html)
+        table = doc.css("table#gsc_rsb_st").first
+        return unless table
+
+        # Scholar's "All / Since YEAR" table. We want the "All" column.
+        rows = table.css("tr")[1..3]
+        return unless rows && rows.length == 3
+
+        site.data["scholar"] ||= {}
+        site.data["scholar"]["citations"] = rows[0].css("td")[1].text.to_i
+        site.data["scholar"]["h_index"]   = rows[1].css("td")[1].text.to_i
+        site.data["scholar"]["i10_index"] = rows[2].css("td")[1].text.to_i
+        site.data["scholar"]["last_updated"] = Time.now.utc.strftime("%Y-%m-%d")
+
+        Jekyll.logger.info "Scholar:",
+          "live: #{site.data['scholar']['citations']} citations, " \
+          "h-index #{site.data['scholar']['h_index']}, " \
+          "i10 #{site.data['scholar']['i10_index']}"
+      rescue StandardError => e
+        Jekyll.logger.warn "Scholar:", "live fetch failed (#{e.class}): #{e.message}"
+        Jekyll.logger.warn "Scholar:", "falling back to static values in _data/scholar.yml"
+      end
+    end
+  end
+end

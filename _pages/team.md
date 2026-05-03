@@ -27,14 +27,7 @@ nav_order: 3
       <em>Principal Investigator</em> &middot; Harvard Medical School, Department of Genetics
     </p>
     <p>
-      Akos leads the lab at Harvard Medical School. The lab designs
-      and synthesizes radically engineered genomes with modified genetic
-      codes &mdash; to render organisms resistant to all natural viruses,
-      biocontain cells and their engineered genetic information, and produce
-      genetically encoded polymers and biologic drugs beyond the limits of
-      natural protein synthesis. He holds an NIH K99/R00 Award from the
-      National Institute of Biomedical Imaging and Bioengineering and was
-      previously a Boehringer Ingelheim Fonds Ph.D. Fellow.
+      Akos holds an NIH K99/R00 Award from the National Institute of Biomedical Imaging and Bioengineering and was previously an EMBO Long-Term Postdoctoral Fellow, an EMBO Short-Term Fellow at ETH Zurich, and a Boehringer Ingelheim Fonds Ph.D. Fellow. Akos is a 2025 Rising Star in Engineering in Health (awarded by Columbia, Cornell, Boston, and Johns Hopkins Universities), a Distinguished Young Scholar, and a Next Generation in Biomedicine awardee at the Broad Institute of MIT and Harvard.
     </p>
     <p class="mb-1">
       <a href="https://www.linkedin.com/in/akosnyerges" class="me-2">
@@ -76,6 +69,21 @@ nav_order: 3
     <p>
       Eric joins the lab through Northeastern University's Cooperative Education Program,
       working at the interface of Machine Learning and experimental biology.
+    </p>
+  </div>
+</div>
+<div class="row mt-4 mb-5 align-items-center">
+  <div class="col-md-3 col-sm-4 col-6">
+    {% include figure.liquid
+       path="assets/img/team/daisy.jpg"
+       class="img-fluid rounded z-depth-1"
+       alt="Daisy" %}
+  </div>
+  <div class="col-md-9 col-sm-8">
+    <h4 class="mt-2 mb-1">Daisy</h4>
+    <p class="text-muted mb-2"><em>Honorary Member</em> &middot; Daisy provides essential grant writing support for the lab.</p>
+    <p>
+      <!-- TODO: replace with funny bio -->
     </p>
   </div>
 </div>

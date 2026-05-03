@@ -2,11 +2,6 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: >
-  Peer-reviewed articles, preprints, and patents. See also
-  <a href="https://scholar.google.com/citations?user=Dn8nr-UAAAAJ">Google Scholar</a>
-  and the
-  <a href="https://www.ncbi.nlm.nih.gov/myncbi/akos.nyerges.1/bibliography/public/">My NCBI Bibliography</a>.
 nav: true
 nav_order: 4
 ---
@@ -33,14 +28,6 @@ nav_order: 4
   .marker-note { font-size: 0.82rem; color: #888; margin: 1rem 0 0.25rem; }
   .stats-line { font-size: 0.85rem; color: #0F6E56; font-weight: 500; margin: 0 0 1rem; }
 </style>
-
-<p class="stats-line">
-  <strong>{{ site.data.scholar.publications | default: 36 }} publications</strong> &middot;
-  <strong>~{{ site.data.scholar.citations | default: 2812 }} citations</strong> &middot;
-  <strong>h-index {{ site.data.scholar.h_index | default: 26 }}</strong>
-  &middot; <a href="https://scholar.google.com/citations?user=Dn8nr-UAAAAJ">Google Scholar</a>
-  &middot; <a href="https://www.ncbi.nlm.nih.gov/myncbi/akos.nyerges.1/bibliography/public/">NCBI</a>
-</p>
 
 <p class="marker-note">
   <sup> </sup> <sup>#</sup> corresponding author  &middot; 

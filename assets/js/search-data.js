@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/engineeringbio.science/";
@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Peer-reviewed articles, preprints, and patents. See also Google Scholar and the My NCBI Bibliography.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/engineeringbio.science/publications/";

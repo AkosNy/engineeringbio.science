@@ -14,13 +14,13 @@ description: >
   Engineering the genetic code for virus-resistance, biocontainment,
   and genetically encoded biopolymers. Harvard Medical School,
   Department of Genetics.
-footer_text: '<img src="/engineeringbio.science/assets/img/hms_logo.png" alt="Harvard Medical School" style="height:38px; vertical-align:middle; margin-right:12px; opacity:0.85;"> &copy; Nyerges Lab &middot; Harvard Medical School &middot; Department of Genetics'
+footer_text: '<img src="/assets/img/hms_logo.png" alt="Harvard Medical School" style="height:38px; vertical-align:middle; margin-right:12px; opacity:0.85;"> &copy; Nyerges Lab &middot; Harvard Medical School &middot; Department of Genetics'
 keywords: synthetic biology, genetic code engineering, genome synthesis, biocontainment, directed evolution, protein engineering, biologics, Nyerges lab, Harvard Medical School
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # leave blank for default; or place a favicon image in /assets/img/
 
-url: https://akosny.github.io # the base hostname & protocol for your site
-baseurl: /engineeringbio.science # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://engineeringbio.science # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button

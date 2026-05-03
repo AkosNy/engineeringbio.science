@@ -17,7 +17,7 @@ profile:
     <p>Boston, MA 02115</p>
     <p><code>akos_nyerges [at] hms.harvard.edu</code></p>
 
-selected_papers: true
+selected_papers: false
 
 announcements:
   enabled: false
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3
 
 news:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 ---

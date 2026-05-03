@@ -2,13 +2,11 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+email: akos_nyerges@hms.harvard.edu
+scholar_userid: Dn8nr-UAAAAJ
+orcid_id: 0000-0002-1581-490X       # e.g. 0000-0002-1234-5678
+github_username: AkosNy       # check if this matches your real GitHub handle
+linkedin_username: akosnyerges    # the slug after /in/ in your linkedin URL
+x_username: akosnyerges            # twitter/x handle WITHOUT the @
+# Bluesky takes a full URL (different schema than the others above)
+bluesky_url: https://bsky.app/profile/akosnyerges.bsky.social

@@ -186,6 +186,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-03-23-newscientist-zombie-cells/";
+            },},{id: "news-harvard-medicine-news-interview-with-akos-about-his-path-in-science-and-the-lab-39-s-latest-publication",
+          title: 'Harvard Medicine News Interview with Akos about his path in science and the...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-06-22-hms-troubleshooting/";
             },},{
         id: 'social-cv',
         title: 'CV',

@@ -34,12 +34,27 @@ nav_order: 4
   <span class="author-self">Akos Nyerges</span> shown in green/bold throughout.
 </p>
 
+<h2 class="year-header">2026</h2>
+
+<div class="pub-entry">
+<h3><a href="https://doi.org/10.1038/s41467-026-74300-9">Probing the limits of genetic recoding using multi-omics-guided evolution</a></h3>
+<p class="author-list"><span class="author-self">Nyerges A</span><sup>#</sup>, Chiappino-Pepe A, Budnik B, Baas-Thomas M, Rhuby E, Flynn R, Yan S, Ostrov N, Liu M, Wang M, Zheng Q, Hu F, Chen K, Rudolph A, Chen D, Ahn J, Spencer O, Ayalavarapu V, Tarver A, Harmon-Smith M, Hamilton M, Blaby I, Yoshikuni Y, Hajian B, Jin A, Kintses B, Szamel M, Seregi V, Shen Y, Li Z, Church GM<sup>#</sup></p>
+<p class="venue"><em>Nature Communications</em> <strong>17</strong>, 5311, 2026</p>
+<p class="pub-links"><a href="https://doi.org/10.1038/s41467-026-74300-9">Full text &rarr;</a> <a href="https://doi.org/10.1038/s41467-026-74300-9">DOI</a></p>
+<div class="highlights-block">
+<strong class="lbl">News coverage</strong>
+<ul>
+<li><a href="https://hms.harvard.edu/news/troubleshooting-genetic-engineering-helpful-bacteria"><em>Troubleshooting the Genetic Engineering of Helpful Bacteria</em></a> &mdash; <em>Harvard Medicine News</em> (2026)</li>
+</ul>
+</div>
+</div>
+
 <h2 class="year-header">2024</h2>
 
 <div class="pub-entry">
 <h3><a href="https://www.biorxiv.org/content/10.1101/2024.06.16.599206">Synthetic genomes unveil the effects of synonymous recoding</a></h3>
 <p class="author-list"><span class="author-self">Nyerges A</span><sup>#</sup>, Chiappino-Pepe A, Budnik B, Baas-Thomas M, Flynn R, Yan S, Ostrov N, Liu M, Wang M, Zheng Q, Hu F, Chen K, Rudolph A, Chen D, Ahn J, Spencer O, Ayalavarapu V, Tarver A, Harmon-Smith M, Hamilton M, Blaby I, Yoshikuni Y, Hajian B, Jin A, Kintses B, Szamel M, Seregi V, Shen Y, Li Z, Church GM<sup>#</sup></p>
-<p class="venue"><em>bioRxiv</em>, 2024 &middot; PMCID: PMC11195188 &middot; in revision</p>
+<p class="venue"><em>bioRxiv</em>, 2024 &middot; PMCID: PMC11195188 </p>
 <p class="pub-links"><a href="https://www.biorxiv.org/content/10.1101/2024.06.16.599206">Full text &rarr;</a> <a href="https://doi.org/10.1101/2024.06.16.599206">DOI</a></p>
 <div class="highlights-block">
 <strong class="lbl">News coverage</strong>

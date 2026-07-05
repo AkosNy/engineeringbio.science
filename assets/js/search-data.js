@@ -186,6 +186,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-03-23-newscientist-zombie-cells/";
+            },},{id: "news-accelerating-synthetic-biology-sequencing-driven-innovation-with-dr-akos-nyerges",
+          title: 'Accelerating Synthetic Biology: Sequencing-Driven Innovation with Dr. Akos Nyerges',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-15-seqcenter-spotlight/";
             },},{id: "news-harvard-medicine-news-interview-with-akos-about-his-path-in-science-and-the-lab-39-s-latest-publication",
           title: 'Harvard Medicine News Interview with Akos about his path in science and the...',
           description: "",

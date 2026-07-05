@@ -8,6 +8,6 @@ outlet: "SeqCenter"
 inline: false
 ---
 
-SeqCenter's Customer Spotlight and Interview with Akos, highlighting the Nyerges lab's omics and sequencing-driven approach to synthetic biology: using high-throughput Illumina, PacBio, and Nanopore sequencing to design and validate genomically recoded, virus-resistant *E. coli* and the genetic firewalls that block horizontal gene transfer with natural life.
+SeqCenter's Customer Spotlight and Interview with Akos, highlighting our lab's omics and sequencing-driven approach to synthetic biology: using high-throughput Illumina, PacBio, and Nanopore sequencing to design, create, and validate genomically recoded, virus-resistant genomes and genetic firewalls that block horizontal gene transfer with natural life.
 
 [Read at SeqCenter &rarr;](https://www.seqcenter.com/customer-spotlights-1/)

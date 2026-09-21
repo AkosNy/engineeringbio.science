@@ -37,6 +37,13 @@ nav_order: 4
 <h2 class="year-header">2026</h2>
 
 <div class="pub-entry">
+<h3><a href="https://www.biorxiv.org/content/10.64898/2026.09.17.752456v1">Firewalled synthetic commensal blocks horizontal gene transfer in the gut</a></h3>
+<p class="author-list">Hu E, Gorman Durben K, Budnik B, Arlow DH, Oh SF, <span class="author-self">Nyerges A</span><sup>#</sup></p>
+<p class="venue"><em>bioRxiv</em>, 2026</p>
+<p class="pub-links"><a href="https://www.biorxiv.org/content/10.64898/2026.09.17.752456v1">Full text &rarr;</a> <a href="https://doi.org/10.64898/2026.09.17.752456">DOI</a></p>
+</div>
+
+<div class="pub-entry">
 <h3><a href="https://doi.org/10.1038/s41467-026-74300-9">Probing the limits of genetic recoding using multi-omics-guided evolution</a></h3>
 <p class="author-list"><span class="author-self">Nyerges A</span><sup>#</sup>, Chiappino-Pepe A, Budnik B, Baas-Thomas M, Rhuby E, Flynn R, Yan S, Ostrov N, Liu M, Wang M, Zheng Q, Hu F, Chen K, Rudolph A, Chen D, Ahn J, Spencer O, Ayalavarapu V, Tarver A, Harmon-Smith M, Hamilton M, Blaby I, Yoshikuni Y, Hajian B, Jin A, Kintses B, Szamel M, Seregi V, Shen Y, Li Z, Church GM<sup>#</sup></p>
 <p class="venue"><em>Nature Communications</em> <strong>17</strong>, 5311, 2026</p>

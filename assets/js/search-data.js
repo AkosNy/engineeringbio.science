@@ -196,6 +196,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-06-22-hms-troubleshooting/";
+            },},{id: "news-first-nyerges-lab-preprint",
+          title: 'First Nyerges lab preprint',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-17-biorxiv-firewalled-commensal/";
             },},{
         id: 'social-cv',
         title: 'CV',

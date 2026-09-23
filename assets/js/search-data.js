@@ -201,6 +201,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-17-biorxiv-firewalled-commensal/";
+            },},{id: "news-can-we-build-virus-proof-life",
+          title: 'Can We Build Virus-Proof Life?',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-23-galaxy-podcast/";
             },},{
         id: 'social-cv',
         title: 'CV',

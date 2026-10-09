@@ -24,7 +24,7 @@ nav_order: 3
   <div class="col-md-9 col-sm-8">
     <h4 class="mt-2 mb-1">Akos Nyerges, Ph.D.</h4>
     <p class="text-muted mb-2">
-      <em>Principal Investigator</em> &middot; Harvard Medical School, Department of Genetics
+      <em>Independent Research Associate</em> &middot; Harvard Medical School, Department of Genetics
     </p>
     <p>
       Akos holds an NIH K99/R00 Award from the National Institute of Biomedical Imaging and Bioengineering and was previously an EMBO Long-Term Postdoctoral Fellow, an EMBO Short-Term Fellow at ETH Zurich, and a Boehringer Ingelheim Fonds Ph.D. Fellow. Akos is a 2025 Rising Star in Engineering in Health (awarded by Columbia, Cornell, Boston, and Johns Hopkins Universities), a Distinguished Young Scholar, and a Next Generation in Biomedicine awardee at the Broad Institute of MIT and Harvard.
@@ -79,7 +79,7 @@ nav_order: 3
   </div>
   <div class="col-md-9 col-sm-8">
     <h4 class="mt-2 mb-1">Eric Hu</h4>
-    <p class="text-muted mb-2"><em>Co-op researcher</em> &middot; Northeastern University, Computer Science</p>
+    <p class="text-muted mb-2"><em>Co-Op researcher</em> &middot; Northeastern University, Computer Science</p>
     <p>
       Eric joins the lab through Northeastern University's Cooperative Education Program,
       working at the interface of Machine Learning and experimental biology.

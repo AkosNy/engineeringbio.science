@@ -10,7 +10,7 @@ nav_order: 7
 ## Contact
 
 **Akos Nyerges, Ph.D.**  
-Independent Research Associate
+Independent Research Associate  
 Department of Genetics &middot; Harvard Medical School  
 Veritas Science Center  
 77 Avenue Louis Pasteur, Boston, MA 02115

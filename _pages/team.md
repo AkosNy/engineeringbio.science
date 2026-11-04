@@ -61,9 +61,9 @@ nav_order: 3
     <h4 class="mt-2 mb-1">Oliver Stearns</h4>
     <p class="text-muted mb-2"><em>Graduate Research Assistant</em></p>
     <p>
-      Oliver joins the lab in mid-October 2026 from Northeastern University,
+      Oliver joined the lab from Northeastern University,
       where he directed the Wet Lab Makerspace after finishing his BS in Bioengineering
-      with biochemistry concentration. Prior to his role in the lab, he studied
+      with biochemistry concentration. Prior to the Nyerges lab, he studied
       cAMP/cGMP regulation in drug-resistant <i>A. baumannii</i> in the Geisinger lab
       at Northeastern and the roles of T4 phage early gene <i>goF</i> and mutant
       variants in the Hinton lab at the National Institutes of Health.

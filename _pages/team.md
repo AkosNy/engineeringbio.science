@@ -57,16 +57,25 @@ nav_order: 3
 ## Current members
 
 <div class="row mt-4 mb-5 align-items-center">
-  <div class="col-12">
+  <div class="col-md-3 col-sm-4 col-6">
+    {% include figure.liquid
+       path="assets/img/team/Oliver_Stearns.jpeg"
+       class="img-fluid rounded z-depth-1"
+       alt="Oliver Stearns" %}
+  </div>
+  <div class="col-md-9 col-sm-8">
     <h4 class="mt-2 mb-1">Oliver Stearns</h4>
     <p class="text-muted mb-2"><em>Graduate Research Assistant</em></p>
     <p>
-      Oliver joined the lab from Northeastern University,
-      where he directed the Wet Lab Makerspace after finishing his BS in Bioengineering
-      with biochemistry concentration. Prior to the Nyerges lab, he studied
-      cAMP/cGMP regulation in drug-resistant <i>A. baumannii</i> in the Geisinger lab
-      at Northeastern and the roles of T4 phage early gene <i>goF</i> and mutant
-      variants in the Hinton lab at the National Institutes of Health.
+      Oliver joined the lab as a fresh graduate from Northeastern University, where he
+      helped found the school's iGEM team and worked in the Wet Lab Makerspace. Prior to
+      the Nyerges Lab, he studied cAMP/cGMP regulation in drug-resistant
+      <i>A. baumannii</i> in the Geisinger lab at Northeastern and the roles of T4 phage
+      early gene <i>goF</i> and mutant variants in the Hinton lab at the National
+      Institutes of Health. Outside of the lab, he believes strongly in giving back to
+      the community, volunteering at the community lab BOSLab. When not in the lab, he
+      can be found playing one of his instruments or wandering around Boston walking his
+      dog. He is very excited to join the Nyerges Lab!
     </p>
   </div>
 </div>
